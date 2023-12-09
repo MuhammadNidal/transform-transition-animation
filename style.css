@@ -1,0 +1,132 @@
+/*Transform
+Transform Origin
+div{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+}
+.a{
+    transform:rotate(20deg) ;
+}
+.b{
+    transform: skewY(20deg);
+}
+.c{
+
+}*/
+
+/*Transform Orgin
+*//*
+#div1 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  #div2 {
+    padding: 50px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: red;
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+  }*/
+
+  /*Transform Style*/
+
+ /* #div1 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  #div2 {
+    padding: 50px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: red;
+    transform: rotateY(60deg);
+    transform-style: preserve-3d;
+  }
+  
+  #div3 {
+    padding: 40px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: yellow;
+    transform: rotateY(-60deg);
+  
+  }*/
+  /*TRANSATION */
+  /*Transation Property and transation duration timing function and transation delay*/
+  /*div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+  }
+  
+  div:hover {
+    width: 300px;
+  }
+*/
+/*
+TRANSITION SHORTHAND*/
+/*
+div {
+    width: 100px;
+    background-color: red;
+    transition: width 2s;
+  }
+  
+  div:hover {
+    width: 300px;
+  } */
+
+ /* div {
+ width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    animation-iteration-count: 5;
+  }
+  
+ /* @keyframes cs with alam {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }*/
+  /*
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }*/
+  /*div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }*/
